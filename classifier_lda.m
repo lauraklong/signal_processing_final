@@ -15,7 +15,7 @@ PROCESSED_DATA_VERSION = 0; % which data to load (currently only works with vers
 subjects = 1:8; % which subjects to run
 
 % for classifier
-timewindow = 1:1000;
+timewindow = 500:1000;
 channels = [];
 
 %% Load data and build classifier
